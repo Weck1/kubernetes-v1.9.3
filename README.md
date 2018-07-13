@@ -1,7 +1,8 @@
 # kubernetes-v1.9.3
 
+---
+Installation and dashboard,monitor confiugration
 
-[![Submit Queue Widget]][Submit Queue] [![GoDoc Widget]][GoDoc] [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/569/badge)](https://bestpractices.coreinfrastructure.org/projects/569)
 <img src="https://github.com/kubernetes/kubernetes/raw/master/logo/logo.png" width="100">
 
 ---
