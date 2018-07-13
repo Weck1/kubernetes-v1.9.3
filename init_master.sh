@@ -2,7 +2,7 @@
 #######################################################
 # $Name: init_master.sh 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 
 # $Version: v1.0 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
-# $Function: release for jboss Script 
+# $Function: init master
 # $Author: xiaojun.wu@ebaotech.com
 # $Create Date: 2018-07-13
 # $Description: install kubernetes1.9.3 in Master
@@ -46,6 +46,8 @@ echo "Environment=\"KUBELET_EXTRA_ARGS=--fail-swap-on=false\"" >>/etc/systemd/sy
 systemctl daemon-reload && systemctl restart kubelet
 
 #初始化cluster
+rm -rf /etc/kubernetes/*
+rm -rf /var/lib/etcd/*
 kubeadm init --kubernetes-version=v1.9.3 --pod-network-cidr=10.244.0.0/16 --ignore-preflight-errors=swap
 
 #设置配置文件
