@@ -226,7 +226,7 @@ kubectl apply -f traefik/
 
 Træfik Dashboard
 
-![1531476544482](.\image\1531476544482.png)
+![1531476544482](./image/1531476544482.png)
 
 
 
@@ -242,7 +242,7 @@ kubectl appy -f monitor/dashboard/
 
   https://192.168.9.131:31111
 
-![](.\image\1531476544482.png)
+![](./image/1531476544482.png)
 
 - Get token
 
@@ -266,7 +266,7 @@ token:      eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZ
 
 - Login into dashboard
 
-  ![](.\image\70EDF94E-66AB-4f18-B871-D069FF9C66F2.png)
+  ![](./image/70EDF94E-66AB-4f18-B871-D069FF9C66F2.png)
 
 
 
@@ -286,7 +286,7 @@ kubectl apply -f monitor/heapster/
 
 -    Access grafana dashboard
 
-![](.\image\3B87DDDE-D1AB-44cd-AA01-1D0D5D651BB1.png)
+![](./image/3B87DDDE-D1AB-44cd-AA01-1D0D5D651BB1.png)
 
 
 
@@ -307,8 +307,8 @@ sh ghost.sh
 
 -  Access website
 
-  ![](.\image\0988DDDE-D0A1-41ba-99E1-C605B90FEAA6.png)
+  ![](./image/0988DDDE-D0A1-41ba-99E1-C605B90FEAA6.png)
 
 - FRONTEnd and BACKENDS
 
-  ![](.\image\F33D1DFB-D352-4b8c-A45F-75D5708204C3.png)
+  ![](./image/F33D1DFB-D352-4b8c-A45F-75D5708204C3.png)
