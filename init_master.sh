@@ -52,7 +52,7 @@ kubeadm init --kubernetes-version=v1.9.3 --pod-network-cidr=10.244.0.0/16 --igno
 
 #设置配置文件
 mkdir -p $HOME/.kube
-cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+/bin/cp -f  /etc/kubernetes/admin.conf $HOME/.kube/config
 chown $(id -u):$(id -g) $HOME/.kube/config
 
 
