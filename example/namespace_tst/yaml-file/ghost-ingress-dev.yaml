@@ -1,17 +1,17 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: nginx-ingress
+  name: ghost-ingress
   namespace: dev 
   annotations:
     ingress.kubernetes.io/ssl-redirect: "false"
     ingress.kubernetes.io/enable-cors: "true"
 spec:
   rules:
-  - host: nginx-dev.ebaotech.com 
+  - host: ghost-dev.ebaotech.com 
     http:
       paths:
       - path: /
         backend:
-          serviceName: nginx 
-          servicePort: 80 
+          serviceName: ghost 
+          servicePort: 2368
