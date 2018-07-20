@@ -293,10 +293,10 @@ kubectl apply -f monitor/heapster/
 
 ## 10.Website example
 
--  Execute example/ghost.sh
+-  Execute example/namespace_dev/ghost.sh
 
 ```
-cd example
+cd  example/namespace_dev/
 sh ghost.sh
 ```
 
