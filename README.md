@@ -231,7 +231,7 @@ Træfik Dashboard
 
 
 
-## #8. Kubernetes Dashboard 
+## 8. Kubernetes Dashboard 
 
 - Create Dashboard
 
@@ -271,7 +271,7 @@ token:      eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZ
 
 
 
-# #9.Monitor cluster with heapster,influxdb and grafana
+## 9.Monitor cluster with heapster,influxdb and grafana
 
 - Create monitor service
 
